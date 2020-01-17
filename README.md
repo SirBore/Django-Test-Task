@@ -4,7 +4,7 @@ Model “Product”:
 • category (choices: “Books”, “Movies”)
 • price
 
-# Please implement a login-protected view where products can be managed.
+Implement a login-protected view where products can be managed.
 • There should be a datatable that shows currently existing products.
 Implement the table using django-datatables-view:
 https://bitbucket.org/pigletto/django-datatables-view/src/master/
