@@ -23,3 +23,12 @@ new product.
 # Notes:
 • The UI doesn’t have to be fancy, this test is primarily to assess your Django skills
 • Please make use of class based views and Django forms
+
+Instruuctions on how to implement 
+
+1. git clone 
+2. cd Test
+3. python manage.py createsuperuser
+4. python manage.py runserver
+5. Go to http://127.0.0.1:8000/signup 
+
