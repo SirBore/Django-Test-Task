@@ -1,0 +1,18 @@
+<!-- templates/registration/login.html -->
+{% extends 'base2.html' %}
+{% load i18n %}
+
+{% block title %} Login{% endblock %}
+
+{% block content %}
+<h2>Login</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Login</button>
+</form>
+<br />
+New User?<a href="{% url 'signup' %}">{% trans "Create Account" %}</a>
+    <br />
+
+{% endblock %}
